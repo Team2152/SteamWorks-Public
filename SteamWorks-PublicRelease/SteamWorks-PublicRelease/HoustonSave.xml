@@ -1,0 +1,113 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="Upper Limit" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="1" y="309"/>
+		<width>136</width>
+	</widget>
+	<widget field="Intake Limit" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="0" y="288"/>
+		<width>136</width>
+	</widget>
+	<widget field="Lower Limit" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="0" y="267"/>
+		<width>131</width>
+	</widget>
+	<widget field="Low Gear" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="0" y="431"/>
+		<width>127</width>
+	</widget>
+	<widget field="High Gear" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="0" y="410"/>
+		<width>126</width>
+	</widget>
+	<widget field="Amperage" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="452"/>
+	</widget>
+	<widget field="GM Angle" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="246"/>
+	</widget>
+	<widget field="NavxAngle" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="225"/>
+	</widget>
+	<widget field="Range 1" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="72"/>
+	</widget>
+	<widget field="Reset R Encoder" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.CheckBox">
+		<location x="158" y="365"/>
+	</widget>
+	<widget field="Reset All Encoders" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.CheckBox">
+		<location x="149" y="345"/>
+	</widget>
+	<widget field="Reset L Encoder" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.CheckBox">
+		<location x="160" y="386"/>
+	</widget>
+	<widget field="Record" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.CheckBox">
+		<location x="603" y="8"/>
+	</widget>
+	<widget field="Last 30 Seconds" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="557" y="61"/>
+		<width>118</width>
+		<height>21</height>
+	</widget>
+	<widget field="interrupted" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="310" y="17"/>
+		<width>104</width>
+	</widget>
+	<widget field="UDP Connection" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="309" y="2"/>
+		<width>104</width>
+	</widget>
+	<widget field="EncoderR" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="15" y="366"/>
+		<property name="Editable" value="false"/>
+	</widget>
+	<widget field="Custom Shooter Speed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="184" y="261"/>
+	</widget>
+	<widget field="EncoderL" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="17" y="389"/>
+		<property name="Editable" value="false"/>
+	</widget>
+	<widget field="Ball Shooter Speed" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="205" y="168"/>
+	</widget>
+	<widget field="AUTOSTATUS: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1" y="105"/>
+		<property name="Editable" value="false"/>
+	</widget>
+	<widget field="Auto mode" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="501" y="150"/>
+	</widget>
+	<widget field="Distance to Peg" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="256" y="60"/>
+		<property name="Editable" value="false"/>
+	</widget>
+	<widget field="Angle to Peg" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="269" y="35"/>
+		<property name="Editable" value="false"/>
+	</widget>
+	<widget field="Match Time Left" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="519" y="40"/>
+		<property name="Editable" value="false"/>
+	</widget>
+	<widget field="GM Set Angle" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="307" y="349"/>
+		<height>20</height>
+	</widget>
+	<widget field="Navx Angle" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="276" y="86"/>
+		<property name="Editable" value="false"/>
+	</widget>
+	<widget field="Motor Gains" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="4" y="344"/>
+	</widget>
+	<widget field="alliance" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="6" y="28"/>
+		<property name="Editable" value="false"/>
+	</widget>
+</dashboard>
+<live-window>
+</live-window>
+	<hidden field="CheesyDrive"/>
+	<hidden field="alliance2"/>
+</xml>
